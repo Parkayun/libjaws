@@ -37,7 +37,7 @@ class Jaws(object):
         except IndexError:
             return None
 
-    def get_search_stream(self):
+    def search_stream(self):
         pass
 
     def search_streams(self, q):
